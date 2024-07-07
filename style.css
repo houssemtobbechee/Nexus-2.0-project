@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary: #101010;
+    --secondary: #fff;
+    --blue: #274c77;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+#first_element, 
+#second_element,
+#third_element,
+#fourth_element {
+    margin: 64px;
+}
+
+#first_element a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--blue);
+    opacity: 0.5;
+}
+
+#first_element a:hover {
+    opacity: 1;
+}
+
+#first_element p {
+    font-size: 48px;
+    font-weight: 100;
+}
+
+#second_element img {
+    height: 600px;
+    border-radius: 8px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#second_element img:hover {
+    opacity: 1;
+}
+
+#third_element a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 100;
+    color: var(--secondary);
+    opacity: 0.5;
+}
+
+#third_element a:hover {
+    opacity: 1;
+}
+
+#fourth_element a {
+    text-decoration: none;
+    width: 600px;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    border: 1px solid var(--blue);
+    color: var(--secondary);
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#fourth_element a:hover {
+    background-color: var(--blue);
+}
+
+#S1,
+#S2,
+#S3,
+#S4,
+#S5,
+footer {
+    margin: 64px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    margin: 24px 0px;
+}
+
+#services {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+#contact_me_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 128px;
+}
+
+#contact_me_form p {
+    font-size: 64px;
+    font-weight: 100;
+}
+
+#contact_me_form .card {
+    width: 100%;
+}
+
+.card {
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid var(--blue);
+    box-sizing: border-box;
+}
+
+.card:hover {
+    border-color: var(--secondary);
+}
+
+.card h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.card h3:hover {
+    text-decoration: underline;
+}
+
+.card hr {
+    margin-bottom: 16px;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.card span {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#biography {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+#biography .card {
+    flex: 1 1 calc(50% - 16px);
+}
+
+#my_projects h1 {
+    color: var(--blue);
+}
+
+#my_projects .card, .experience .card {
+    margin-bottom: 16px;
+}
+
+#my_projects .card a {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--secondary);
+    opacity: 0.5;
+}
+
+#my_projects .card a:hover {
+    opacity: 1;
+}
+
+.top_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 24px;
+    width: 24px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+}
+
+label {
+    font-size: 24px;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 300;
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 8px;
+    border: 1px solid var(--blue);
+    padding: 8px;
+}
+
+input {
+    height: 48px;
+}
+
+textarea {
+    padding: 8px;
+}
+
+form #submit {
+    width: 100%;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    border: 1px solid var(--blue);
+    color: var(--secondary);
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+form #submit:hover {
+    background-color: var(--blue);
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+footer a:hover {
+    opacity: 1;
+}
+
+.paragraph {
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+    max-height: 0;
+    opacity: 0;
+}
+
+.paragraph.show {
+    display: block;
+    max-height: 500px;
+    opacity: 1;
+}
+
+.paragraph.hide {
+    display: block;
+    max-height: 0;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+        align-items: flex-start;
+        border: none;
+    }
+
+    #first_element, 
+    #second_element,
+    #third_element,
+    #fourth_element {
+        margin: 24px;
+    }
+
+    #first_element a {
+        font-size: 20px;
+    }
+
+    #first_element p {
+        font-size: 24px;
+    }
+
+    #second_element img {
+        width: 100%;
+        height: auto;
+    }
+
+    #third_element a {
+        font-size: 16px;
+    }
+
+    #fourth_element a {
+        width: 100%;
+        padding: 16px;
+        font-size: 16px;
+    }
+
+    #S1,
+    #S2,
+    #S3,
+    #S4,
+    #S5,
+    footer {
+        margin: 24px;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-weight: 300;
+        margin: 24px 0px;
+    }
+
+    #services,
+    #biography {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    #biography .card {
+        width: 100%;
+    }
+
+    #contact_me_form {
+        flex-direction: column;
+        align-items: flex-start;
+        gap:32px;
+    }
+
+    #contact_me_form p {
+        font-size: 24px;
+        font-weight: 100;
+    }
+
+    #contact_me_form .card {
+        width: 100%;
+    }
+
+    .card {
+        padding: 16px;
+    }
+    
+    .card h3 {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    
+    .card hr {
+        margin-bottom: 8px;
+    }
+    
+    .card p {
+        font-size: 12px;
+    }
+    
+    .card span {
+        font-size: 12px;
+    }
+    
+    #my_projects .card, .experience .card {
+        margin-bottom: 8px;
+    }
+    
+    #my_projects .card a {
+        font-size: 12px;
+    }
+
+    .top_card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .btn {
+        font-size: 16px;
+        height: 16px;
+        width: 16px;
+    }
+    
+    form {
+        margin-top: 8px;
+    }
+    
+    label {
+        font-size: 12px;
+    }
+    
+    input, textarea {
+        box-sizing: border-box;
+        margin-top: 4px;
+        font-size: 12px;
+        width: 100%;
+        padding: 8px;
+    }
+    
+    input {
+        height: 32px;
+    }
+    
+    form #submit {
+        width: 100%;
+        padding: 12px;
+        font-size: 12px;
+    }
+    
+    footer {
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+}
